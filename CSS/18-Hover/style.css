@@ -1,0 +1,13 @@
+a {
+    background-color: navy;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: lightskyblue;
+    text-decoration: underline;
+}

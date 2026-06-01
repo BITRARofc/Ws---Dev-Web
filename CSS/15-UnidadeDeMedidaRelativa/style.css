@@ -1,0 +1,26 @@
+html {
+    background-color: aqua;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+body {
+    background-color: blueviolet;
+    width: 50%;
+    font-size: 2em;
+}
+
+.pai {
+    background-color: brown;
+    width: 50%;
+    font-size: 3em;
+}
+
+.filho {
+    background-color: deeppink;
+    width: 50%;
+    font-size: 1rem;
+}
