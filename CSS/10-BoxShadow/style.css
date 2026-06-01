@@ -1,0 +1,11 @@
+p {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightcoral;
+}
+
+p {
+    /* deslocamento horizontal, deslocamento vertical, desfoque, cor*/
+    box-shadow: -10px 10px black;
+}
