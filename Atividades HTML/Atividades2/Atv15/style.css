@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.card {
+    background-color: #f0f0f0;
+    margin: 30px;
+    padding: 10px 30px;
+    width: 400px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 10px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+    margin-bottom: 5px;
+}
+
+.sobremim, .hobbies, .habilidades {
+    margin-bottom: 40px;
+}
+
+ul, ol{
+    margin-top: 0;
+    padding-left: 16px;
+}
+
+.sobremim p{
+    margin-top: 0;
+}
+
+.imagem {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #696969;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.rodape a {
+    color: blue;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
