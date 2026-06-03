@@ -32,3 +32,42 @@ body {
     height: 300px;
 }
 
+.project a {
+    border: 3px solid blue;
+    padding: 3px;
+    border-radius: 7px;
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+}
+
+.project a:hover {
+    border: 3px solid rgb(99, 99, 253);
+    padding: 3px;
+    border-radius: 7px;
+    background-color: rgb(214, 245, 255);
+    text-decoration: underline;
+    color: rgb(71, 71, 71);
+}
+
+.contact {
+    color: royalblue;
+}
+
+.contact p {
+    color: rgb(22, 22, 22);
+}
+
+.contact h3 {
+    color: rgb(22, 22, 22);
+}
+
+.contact a {
+    text-decoration: none;
+    color: navy;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: navy;
+}

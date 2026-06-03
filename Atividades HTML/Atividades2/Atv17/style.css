@@ -1,0 +1,37 @@
+body {
+    background-color: burlywood;
+}
+
+.bolo {
+    width: 500px;
+    height: 800px;
+    margin: 0 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(175, 140, 94);
+    box-shadow: 4px 4px 30px rgb(175, 140, 94);
+}
+
+.bolo h1 {
+    color: sienna;
+    text-align: center;
+}
+
+.bolo h2 {
+    color: brown;
+}
+
+.bolo li {
+    font-size: 18px;
+}
+
+.bolo img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px 50px 10px 50px;
+}
+
+.bolo a {
+    padding-bottom: 10px;
+}
