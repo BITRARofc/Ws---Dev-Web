@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form action="./" method="post">
+            <h2>Agendamento</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome Completo" autofocus required><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000" required><br>
+            <label for="atendimento">Data do atendimento:</label>
+            <input type="date" name="atendimento" id="atendimento" required><br>
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora" id="hora" required><br>
+            <label for="servico">Serviço:</label>
+            <select name="servico" id="servico">
+                <option value="default">Selecione...</option>
+                <option value="dentista">Dentista</option>
+                <option value="oftalmologista">Oftalmologista</option>
+                <option value="clinico">Clínico Geral</option>
+            </select><br>
+            <label for="termos">Prioridade</label><br>
+            <input type="radio" name="prioridade" id="baixa" required> 
+            <label for="prioridade">Baixa</label><br>
+            <input type="radio" name="prioridade" id="media" required> 
+            <label for="prioridade">Média</label><br>
+            <input type="radio" name="prioridade" id="alta" required> 
+            <label for="prioridade">Alta</label><br>
+
+            <label for="observacao">Digite suas observações</label>
+            <textarea name="observacao" id="observacao" rows="3" placeholder="Observações..."></textarea><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>   
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 3000px;
+    padding-top: 50px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+}
+
+header {
+    position: fixed;
+    background-color: blue;
+    color: antiquewhite;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+}

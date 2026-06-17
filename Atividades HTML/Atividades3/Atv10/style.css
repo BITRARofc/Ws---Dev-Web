@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(233, 253, 231);
+    margin: auto;
+}
+
+div {
+    background-color: rgb(220, 255, 216);
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    border: 3px solid rgb(211, 126, 126);
+    border-radius: 10px;
+    box-shadow: -4px 4px 10px rgb(211, 126, 126);
+}
+
+
+
+h2 {
+    color: brown;
+    font-size: 26px;
+}
+
+label {
+    display: block;
+    padding-top: 5px;
+    font-weight: bold;
+    color: rgb(104, 0, 0);
+    text-align: left;
+    margin-left: 150px;
+}
+
+input, select {
+    padding: 10px 12px;
+    width: 50%;
+    margin: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    border: 1px solid rgb(220, 255, 216);
+} 
+
+input:hover {
+    border: 1px solid black;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    padding: 10px 12px;
+    width: 25%;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(220, 255, 216);
+    display: inline-block;
+}
+
+button:hover {
+    background-color: rgb(156, 52, 52);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+input[type="checkbox"] + label {
+    margin: 0;
+    margin-right: 98px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#termos {
+    width: 13px;
+    height: 13px;
+}

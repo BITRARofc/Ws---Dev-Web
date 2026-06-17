@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #692764;
+}
+
+body {
+    background-color: #7fb1a8;
+    margin: auto;
+}
+
+div {
+    background-color: #94f9bf;
+    width: 600px;
+    height: auto;
+    margin: auto;
+
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+div.cabecalho  {
+    margin: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.cabecalho img{
+    width: 280px;
+    margin-top: -50px;
+    padding: 0;
+    display: inline;
+}
+
+.cabecalho ul {
+    text-align: left;
+    margin-top: 17px;
+}
+
+.cabecalho li {
+    list-style: none; 
+    margin: 10px;
+    padding: 5px;
+    display: inline;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    padding: 7px;
+}
+
+.cabecalho a:hover {
+    background-color: #79d3a0d5;
+    border-radius: 5px;
+}
+
+div.formulario  {
+    margin: auto;
+    margin-top: 20px;
+    width: 900px;
+    height: auto;
+}
+
+/*h2 {
+    color: brown;
+    font-size: 26px;
+}
+
+label {
+    display: block;
+    padding-top: 5px;
+    font-weight: bold;
+    color: rgb(104, 0, 0);
+    text-align: left;
+    margin-left: 150px;
+}
+
+input, select, textarea {
+    padding: 10px 12px;
+    width: 50%;
+    margin: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    border: 1px solid rgb(220, 255, 216);
+} 
+
+input:hover {
+    border: 1px solid black;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    padding: 10px 12px;
+    width: 25%;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(220, 255, 216);
+    display: inline-block;
+}
+
+button:hover {
+    background-color: rgb(156, 52, 52);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+input[type="radio"] + label {
+    margin: 0;
+    margin-right: 220px;
+    display: inline-block;
+    width: 40px;
+}
+
+input[type="radio"] {
+    width: 13px;
+    height: 13px;
+}
+*/

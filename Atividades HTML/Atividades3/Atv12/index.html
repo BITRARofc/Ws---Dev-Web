@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form action="./" method="post">
+            <h2>Cadastro de Produtos</h2>
+            <label for="nomee">Nome do produto:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o nome do produto" autofocus required><br>
+            <label for="precoo">Preço:</label>
+            <input type="number" name="preco" id="preco" placeholder="Digite o preço do produto" required><br>
+            <label for="estoquee">Estoque:</label>
+            <input type="number" name="estoque" id="estoque" placeholder="Digite a quantidade de estoque" value="0" required><br>
+            <label for="servicoo">Serviço:</label>
+            <select name="servico" id="servico">
+                <option value="default">Selecione...</option>
+                <option value="eletronico">Eletrônico</option>
+                <option value="alimento">Alimento</option>
+                <option value="higiene">Higiene</option>
+            </select><br>
+            <label for="corr">Cor do produto</label>
+            <input type="color" name="cor" id="cor" required><br>
+            <label for="arquivoo">Envie a foto do arquivo</label>
+            <input type="file" name="arquivo" id="arquivo" required><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>   
+        </form>
+    </div>
+</body>
+</html>

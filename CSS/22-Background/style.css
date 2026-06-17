@@ -1,0 +1,10 @@
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: coral;
+    background-image: url(/Image/36b4fb488e39aa90aa6ea72c039c4b8e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="/" method="post">
+        <label for="nome">Nome Completo</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite Seu Nome Completo" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" required>
+        <br>
+        <label for="tenha">Senha</label>
+        <input type="password" name="senha" id="senha" required>
+        <br>
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade" required>
+        <br>
+        <label for="genero">Gênero</label>
+        <select name="genero" id="genero">
+            <option value="" >Selecione...</option>
+            <option value="masculino" >Masculino</option>
+            <option value="feminino" >Feminino</option>
+            <option value="outro" >Outro</option>
+        </select>
+        <br>
+        <h2>Interesses</h2>
+        <input type="checkbox" name="interesses" id="tecnologia" value="tecnologia">
+        <label for="tecnolgia">Tecnologia</label>
+        <input type="checkbox" name="interesses" id="esportes" value="esportes">
+        <label for="esportes">Esportes</label>
+        <input type="checkbox" name="interesses" id="musica" value="musica">
+        <label for="musica">Musicas</label>
+        <br>
+        <label for="newsletter" id="enfase">Deseja receber nossa newsletter?</label>
+        <input type="radio" name="newsletter" id="newsletter" value="sim">
+        <label for="sim">Sim</label>
+        <input type="radio" name="newsletter" id="newsletter" value="nao">
+        <label for="sim">Não</label>
+        <br>
+        <h2>Informações adicionais</h2>
+        <label for="sonho">Sonhos: </label>
+        <textarea name="sonho" id="sonho" rows="5" cols="30" placeholder="Conte-nos seus maiores sonhos"></textarea>
+        <br>
+        <label for="cor">Cor favorita: </label>
+        <input type="color" name="cor" id="cor">
+        <br>
+        <label for="data">Data Nascimento: </label>
+        <input type="date" name="data" id="data">
+        <br>
+        <label for="arquivo">Envie uma foto: </label>
+        <input type="file" name="arquivo" id="arquivo">
+
+
+        <br>
+        <button type="submit">Enviar Formulário</button>
+    </form>
+</body>
+</html>

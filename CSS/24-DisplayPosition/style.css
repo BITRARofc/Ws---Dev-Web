@@ -1,0 +1,26 @@
+li {
+    background-color: coral;
+    color: white;
+}
+
+.block li {
+    display: block;
+    width: 100px;
+    margin: 5px;
+}
+
+.inline li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+.inline-block li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.none li {
+    display: none;
+}
