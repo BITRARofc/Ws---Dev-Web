@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Hierarquia de seletores estiliza apenas os paragrafos dentro da section*/
+section p {
+    color: red;
+}
+
+/*Aplica estilo nos filhos*/
+ul > li {
+    color: blue;
+}
+
+/*Aplicação do mesmo estilo para varios seletores*/
+h2, h3 {
+    background-color: tan;
+}
+
+.card {
+    background-color: lightblue;
+}
+
+.card.destaque {
+    color: yellow;
+}
+
+h2 + p {
+    color: violet;
+}
+
+h2 ~ p {
+ color: chocolate;
+}

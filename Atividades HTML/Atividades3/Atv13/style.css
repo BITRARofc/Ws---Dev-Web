@@ -15,8 +15,6 @@ div {
     background-color: #94f9bf;
     width: 600px;
     height: auto;
-    margin: auto;
-
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
@@ -61,11 +59,28 @@ div.cabecalho  {
 }
 
 div.formulario  {
-    margin: auto;
-    margin-top: 20px;
     width: 900px;
     height: auto;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
 }
+
+.formulario-image, .formulario-conteudo {
+    width: 900px;
+    height: auto;
+    padding: 0;
+    display: inline-block;
+}
+
+h1 {
+    padding: 20px;
+    text-align: left;
+}
+
+
 
 /*h2 {
     color: brown;

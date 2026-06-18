@@ -1,10 +1,24 @@
-.bg {
-    width: 100vw;
-    height: 100vh;
-    background-color: coral;
-    background-image: url(/Image/36b4fb488e39aa90aa6ea72c039c4b8e.jpg);
+.banner {
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, blue 0%, purple 50%, navy 100%);
+}
+
+.secao {
+    height: 300px;
+    padding: 50px;
+    color: white;
+    background-image: url(/Image/eduardo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
+    background-position: cover;
+    background-attachment: fixed;
+}
+
+.card {
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: radial-gradient(circle, navy 0%, purple 50%, crimson 100%);
 }

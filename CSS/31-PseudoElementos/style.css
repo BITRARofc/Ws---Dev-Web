@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo::before {
+    content: "# ";
+    color: orange;
+}
+
+.titulo::after {
+    content: " $";
+    color: crimson;
+}
+
+p::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+.primeira-linha::first-line {
+    color: chocolate;
+}
+
+p::selection {
+    background-color: black;
+    color: white;
+}
+
+input::placeholder {
+    color: gray;
+    font-style: italic;
+}
+
+ul {
+margin: 50px;
+}
+
+li::marker {
+    color: red;
+    font-size: 24px;
+}

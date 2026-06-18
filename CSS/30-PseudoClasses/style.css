@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+}
+
+input:focus {
+    border: 2px solid navy;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:active { 
+    background-color: white;
+    color: black;
+}
+
+a:visited {
+    color: coral;
+}
+
+input:checked {
+    width: 20px;
+    height: 20px;
+
+}
+
+input:disabled{
+    background-color: #505050;
+    color: white;
+}
+
+li:first-child {
+    color: blueviolet;
+}
+li:last-child {
+    color: red;
+}
+li:nth-child(2) {
+    color: blue;
+}

@@ -1,0 +1,30 @@
+/*campo das variaveis*/
+
+:root {
+    --cor-principal: #f0f0f0;
+    --cor-segundaria: #df0000;
+    --espacamento: 10px;
+    --tamanho-fonte-texto: 24px;
+    --fonte-principal: Arial, Helvetica, sans-serif;
+    --fonte-segundaria: 'Times New Roman', Times, serif;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    color: var(--cor-segundaria);
+    background-color: var(--cor-principal);
+    padding: var(--espacamento);
+}
+
+p {
+    background-color: var(--cor-principal);
+    color: var(--cor-segundaria);
+    font-family: var(--fonte-principal);
+}
