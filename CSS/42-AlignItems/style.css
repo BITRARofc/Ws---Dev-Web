@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 400px;
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: black;
+}
+
+.item {
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.start {
+    align-items: flex-start;
+}
+
+.end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.grande {
+    font-size: 30px;
+}

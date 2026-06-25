@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: black;
+}
+
+.item {
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    
+    border-radius: 8px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.reverse {
+    flex-wrap: wrap-reverse;
+}

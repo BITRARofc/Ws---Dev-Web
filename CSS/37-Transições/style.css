@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bloco {
+    margin: 10px auto;
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.bloco p {
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.b-transition {
+    transition: 2s;
+}
+
+.b-transition:hover {
+    scale: 1.5;
+}
+
+.b-property {
+    width: 100px;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.b-property:hover {
+    width: 300px;
+    background-color: navy;
+}
+
+.b-duration {
+    transition-duration: 2s;
+}
+
+.b-duration:hover {
+    transform: scale(1.4);
+}
+
+.b-delay {
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+
+.b-delay:hover {
+    transform: translate(15px);
+}
+
+.b-timing {
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+.b-timing:hover {
+    transform: scale(1.5);
+}
+
+.card-animado {
+    transition: transform 2s, box-shadow 3s;
+}
+
+.card-animado:hover {
+    transform: scale(1.3);
+    box-shadow: 1px 10px 16 #333;
+}

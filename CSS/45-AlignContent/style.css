@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: black;
+}
+
+.item {
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.stretch {
+    align-content: stretch;
+}
+
+.start {
+    align-content: start;
+}
+
+.end {
+    align-content: end;
+}
+
+.center {
+    align-content: center;
+}
+
+.between {
+    align-content: space-between;
+}
+
+.around {
+    align-content: space-around;
+}
+
+.evenly {
+    align-content: space-evenly;
+}

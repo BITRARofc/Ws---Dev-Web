@@ -10,18 +10,56 @@
 <body>
     <div class="cabecalho">
         <ul>
-            <li><a href="#">Inscrição</a></li> <strong>|</strong>
-            <li><a href="#">Sobre-Nós</a></li> <strong>|</strong>
+            <li><a href="/Atividades HTML/Atividades3/Atv13/index.html">Inscrição</a></li> <strong>|</strong>
+            <li><a href="/Atividades HTML/Atividades3/Atv13/about.html">Sobre-Nós</a></li> <strong>|</strong>
             <li><a href="#">Contato</a></li>
         </ul>
         <img src="/Image/New Project.png" alt="">
     </div>
     <div class="formulario">
         <div class="formulario-image">
-            <img src="https://placehold.co/900x150" alt="">
+            <img src="/Image/gettyimages-1495038077 (2).webp" alt="">
         </div>
         <div class="formulario-conteudo">
-                  <h1>Inscrição do Curso</h1>      
+            <h1>Inscrição do Curso</h1> 
+            
+            <form action="./" method="post">
+                <label for="nome">Nome Completo: </label>
+                <input type="text" name="nomen" id="nomeid" placeholder="Digite seu nome completo:" required>
+                <label for="email">E-mail: </label>
+                <input type="email" name="emailn" id="emailid" placeholder="Digite seu e-mail:" required>
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefonen" id="telefoneid" placeholder="(00) 00000-0000" required>
+
+                <label for="cursos">Selecione o Curso Desejado:</label>
+                <select name="curson" id="cursoid" required>
+                    <option value="default" disabled selected>Selecione...</option>
+                    <option value="ti">Técnico em Informática</option>
+                    <option value="ti">Técnico em Enfermagem</option>
+                    <option value="ti">Técnico em Segurança do Trabalho</option>
+                </select>
+
+                <label for="periodo">Periodo:</label>
+                <input type="radio" name="periodon" id="manha" required>
+                <label for="manha">Manhã</label><br>
+                <input type="radio" name="periodon" id="tarde" required>
+                <label for="tarde">Tarde</label><br>
+                <input type="radio" name="periodon" id="noite" required>
+                <label for="noite">Noite</label><br>
+
+                <label for="materiais">Materiais Extras:</label>
+                <input type="checkbox" name="materiaisn" id="apostila">
+                <label for="apostila">Apostila</label><br>
+                <input type="checkbox" name="materiaisn" id="certificado">
+                <label for="certificado">Certificado</label><br>
+                <input type="checkbox" name="materiaisn" id="suporte">
+                <label for="suporte">Suporte Extra</label><br>
+
+                <label for="duvidas">Dúvidas:</label>
+                <textarea name="duvidas" id="duvidasid" placeholder="Digite suas dúvidas" rows="4"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </div>
     </div>
 </body>

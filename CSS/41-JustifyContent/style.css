@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: black;
+}
+
+.item {
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.start {
+    justify-content: start;
+}
+
+.end {
+    justify-content: end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}

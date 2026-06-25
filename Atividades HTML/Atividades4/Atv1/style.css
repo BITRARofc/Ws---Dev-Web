@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(185, 212, 221);
+}
+
+div {
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: lightblue;
+    box-shadow: 0px 5px 10px black;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 49.7%;
+    display: inline-block;
+}
