@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rebeccapurple;
+}
+
+.item {
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.basis-auto .item {
+    flex-basis: auto;
+}
+
+.basis-px .item {
+    flex-basis: 200px;
+}
+
+.basis-pc .item {
+    flex-basis: 50%;
+}
+

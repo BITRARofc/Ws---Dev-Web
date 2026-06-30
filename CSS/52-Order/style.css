@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rebeccapurple;
+}
+
+.item {
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.item1 {
+    order: 2;
+}
+
+.item2 {
+    order: 3;
+}
+
+.item3 {
+    order: 1;
+}
+
+.destaque {
+    order: -1;
+}

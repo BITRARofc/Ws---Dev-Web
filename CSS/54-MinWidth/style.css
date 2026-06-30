@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    width: 70vw;
+    max-width: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rebeccapurple;
+}
+
+.imagem {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo {
+    flex: 1;
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+.com-ajuste .conteudo {
+    min-width: 0;
+}
+
+.conteudo p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: lightskyblue;
+    padding: 10px;
+}

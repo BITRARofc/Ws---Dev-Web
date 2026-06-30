@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    background-color: rebeccapurple;
+}
+
+.item {
+    flex: 1;
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.aviso {
+    flex: 1;
+    background-color: turquoise;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/*Qualquer tela com 700px ou menos, vai pegar esse estilo*/
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .item {
+        background-color: greenyellow;
+    }
+
+    .aviso {
+        background-color: chocolate;
+        font-size: 10px;
+    }
+}

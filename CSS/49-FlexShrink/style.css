@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rebeccapurple;
+}
+
+.item {
+    width: 120px;
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.shrink-0 .item {
+    flex-shrink: 0;    
+}
+
+.shrink-1 .item {
+    flex-shrink: 1;   
+}
+
+.shrink-2 .destaque {
+    flex-shrink: 2;
+    background-color: crimson;
+}
+
