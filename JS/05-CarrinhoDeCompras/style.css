@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: rgb(204, 216, 226);
+    color: rgb(36, 36, 36);
+    padding: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    background-color: aliceblue;
+    padding: 0.75rem 1.275rem;
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+header h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+  
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #252525;
+}
+
+
+.btn-header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 0.75rem #aaa;
+}
+  
+.btn-header:hover {
+    background-color: rgb(117, 74, 160);
+}
+  
+.btn-header span {
+    font-size: 1.5rem;
+}
+ 
+main {
+    background-color: aliceblue;
+    padding: 0.75rem 1.25rem;
+    max-width: 80vw;
+    margin: 0 auto;
+    border-radius: 0 0 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #fafafa;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    box-shadow: 0 0.25rem 0.75rem #aaa;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.card label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.card select, .card input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    outline: none;
+}
+
+.card select:focus, .card input:focus {
+    border-color: black;
+}
+
+.card .btn-default {
+    background-color: rebeccapurple;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 0.75rem #aaa;
+    margin-bottom: 1rem;
+  }
+  
+.card .btn-default:hover {
+    background-color: rgb(117, 74, 160);
+}
+  
+.card .info {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #aaa;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.card .summary {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+  
+.summary .total-valor{
+    font-size: 1.25rem;
+    color: darkgoldenrod;
+    font-weight: 600;
+}

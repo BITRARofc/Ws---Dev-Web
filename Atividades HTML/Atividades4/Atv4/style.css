@@ -23,10 +23,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-h3 {
-    margin-bottom: 10px;
-}
-
 img {
     width: 60%;
     margin-left: 20%;
@@ -35,7 +31,22 @@ img {
     border-radius: 5px;
 }
 
+button {
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(106, 185, 209);
+}
+
 p {
     font-size: 18px;
-    line-height: 18px;
+}
+
+button:hover {
+    background-color: rgb(67, 157, 185);
+}
+
+.borda {
+    border: none;
+    width: 70px;
+    margin-left: 85%;
 }
