@@ -27,6 +27,7 @@ nav {
     text-align: center;
     padding-top: 8px;
     word-spacing: 25px;
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -39,10 +40,9 @@ nav a {
 .container {
     width: 45vw;
     margin: auto;
-    margin-top: 20px;
     background-color: #fff;
     padding: 20px;
     list-style-position: inside;
-    border-radius: 7px;
-    
+    border-radius: 10px;
+    margin-bottom: 10px;
 }

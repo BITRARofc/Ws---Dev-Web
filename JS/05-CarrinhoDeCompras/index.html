@@ -14,7 +14,7 @@
             <h2>Itens de Tecnologia</h2>
         </div>
 
-        <button class="btn-header"><span>+</span>Novo Produto</button>  
+        <button class="btn-header" onclick="abrirModal()"><span>+</span>Novo Produto</button>  
     </header>
     <main>
         <section class="card">
@@ -25,32 +25,45 @@
             <label for="quantidade">Quantidade</label>
             <input type="number" id="quantidade" min="1" value="1">
             
-            <button class="btn-default">Adicionar ao Carrinho</button>
+            <button onclick="adicionarProduto()" class="btn-default adicionar">Adicionar ao Carrinho</button>
+            <div class="preview" id="preview"></div>
 
-            <div class="info">
-                <div class="info-imagem" style="width: 150px;">
-                    <img src="https://placehold.co/150x150" alt="">
-                </div>
-                    <div class="info-dados">
-                        <h3>Mouse</h3>
-                        <p>Mouse optico</p>
-                        <p>R$159.99</p>
-                    </div>
-                </div>
         </section>
         <section class="card">
             <h2>Produtos no Carrinho</h2>
-            <p>Seu carrinho está vazio</p>
+            <div class="carrinho" id="carrinho"></div>
             <hr/>
             <div class="summary">
-                <div class="total-valor">
-                    <p>Total</p>
-                    <p class="valor">R$0.00</p> 
+                <div class="summary-total">
+                  <p>Total</p>
+                  <p class="total-valor" id="total-valor">R$ 0,00</p>
                 </div>
-                <button class="btn-default">Limpar</button>
+                <button class="btn-default" onclick="limparCarrinho()">Limpar</button>
             </div>
         </section>
     </main>
+
+    <dialog id="modalProduto">
+        <h2>Novo produto</h2>
+         
+          <label for="novoNome">Nome</label>
+        <input type="text" id="novoNome" placeholder="Ex: Teclado Mecânico" />
+         
+          <label for="novoPreco">Preço</label>
+        <input type="number" id="novoPreco" placeholder="Ex: 199.90" />
+         
+          <label for="novaDescricao">Descrição</label>
+        <input type="text" id="novaDescricao" placeholder="Ex: RGB, USB, ABNT2" />
+         
+          <label for="novaImagem">URL da imagem</label>
+        <input type="text" id="novaImagem" placeholder="https://exemplo.com/imagem.jpg" />
+         
+          <div class="modal-actions">
+        <button class="btn-light" onclick="fecharModal()">Cancelar</button>
+        <button onclick="salvarProduto()">Salvar</button>
+        </div>
+    </dialog>
+
     <script src="script.js"></script>
 </body>
 </html>
